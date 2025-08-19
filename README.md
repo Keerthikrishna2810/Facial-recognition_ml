@@ -1,5 +1,5 @@
 # Facial-recognition_ml
-Face Recognition Fine-Tuning Project 🎭
+Face Recognition Fine-Tuning Project 
 
 This project implements **face recognition with fine-tuning using Triplet Loss** on the [InceptionResnetV1](https://github.com/timesler/facenet-pytorch) architecture.  
 The workflow includes:
@@ -10,7 +10,7 @@ The workflow includes:
 
 ---
 
-## 📁 Project Folder Structure
+##  Project Folder Structure
 face_recognition_project/
 ├── facedataset/ # Raw dataset (high + low resolution images)
 │ ├── high_resolution/
@@ -39,7 +39,7 @@ Edit
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone Repo & Install Requirements**
    ```bash
@@ -66,7 +66,7 @@ bash
 Copy
 Edit
 python3 clean_images.py
-🚀 Usage (Scripts)
+ Usage (Scripts)
 1. Sanity Check Dataset
 bash
 Copy
@@ -97,7 +97,7 @@ Edit
 python3 post_eval.py
 Results saved in: outputs/post_eval_plots/
 
-📊 Sample Outputs
+Sample Outputs
 Type	Location
 Best model	outputs/checkpoints/best_model.pth
 Training Loss Plot	outputs/plots/training_loss.png
@@ -115,7 +115,7 @@ End-to-end evaluation (pre & post finetune).
 
 Visualization of metrics (ROC, PR, similarity distribution, training loss).
 
-📌 Requirements
+Requirements
 Python 3.8+
 
 PyTorch
@@ -126,11 +126,11 @@ torchvision
 
 matplotlib, seaborn, scikit-learn
 
-📜 License
+License
 This project is released under the MIT License.
 You are free to use, modify, and distribute this project with attribution.
 
-🙌 Acknowledgments
+Acknowledgments
 FaceNet PyTorch implementation by David Sandberg.
 
 Pre-trained InceptionResnetV1 on VGGFace2 dataset.
